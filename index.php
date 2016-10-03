@@ -6,10 +6,11 @@
     <body>
         <p>
             <?php
-                function awardForCapture($specsOwned,$mugsOwned,$sausageRollsOwned){
-                    echo 10*pow($specsOwned*$mugsOwned*$sausageRollsOwned,2)/2;
+                function awardForCapture($personName,$specsOwned,$mugsOwned,$sausageRollsOwned){
+                    echo "Wanted: "+10*pow($specsOwned*$mugsOwned*$sausageRollsOwned,2)/2;
                 }
-                echo "Hello World";
+
+                awardForCapture("Joe Bloggs",2,2,2);
             ?>
         </p>
     </body>
