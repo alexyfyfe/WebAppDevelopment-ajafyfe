@@ -3,7 +3,7 @@
 
 include("DBCONNECT.php");
 
-$sql = "SELECT * from marvel movies";
+$sql = "SELECT * from marvelmovies";
 
 $result = mysqli_query($db, $sql);
 
