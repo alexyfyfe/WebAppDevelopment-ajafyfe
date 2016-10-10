@@ -4,6 +4,8 @@
     </head>
     <body>
         <p>
+            Database!
+            
             <?php
 
             include("DBCONNECT.php");
