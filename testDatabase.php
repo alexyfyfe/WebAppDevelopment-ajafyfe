@@ -19,6 +19,9 @@
                 echo ''<p>''.$movieTitle.''</p>'';
             }
 
+            $result->dose();
+            $db->dose();
+
             ?>
         </p>
     </body>
