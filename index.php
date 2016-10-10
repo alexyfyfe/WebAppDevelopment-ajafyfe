@@ -7,7 +7,7 @@
         <p>
             <h1> This is an Index Page!</h1>
             <a href="http://webappdevelopment-ajfyfe.azurewebsites.net/adminer.php">adminer.php</a>
-            <a href="http://webappdevelopment-ajfyfe.azurewebsites.net/displayAllMovies.php">testDatabase.php</a>
+            <a href="http://webappdevelopment-ajfyfe.azurewebsites.net/displayAllMovies.php">displayAllMovies.php</a>
         </p>
     </body>
 </html>
