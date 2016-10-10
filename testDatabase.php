@@ -15,7 +15,8 @@
             $row = $mysql_fetch_array($result,MYSQLI_ASSOC);
 
             while($row = $result->fetch_array()){
-                echo "<p>''.$row['title'].''</p>";
+                $movieTitle = $row['title'];
+                echo ''<p>''.$movieTitle.''</p>'';
             }
 
             ?>
