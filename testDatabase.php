@@ -15,8 +15,7 @@
             $result = $db->query($sql_query)
 
             while($row = $result->fetch_array()){
-                $movieTitle = $row['title'];
-                echo ''<p>''.$movieTitle.''</p>'';
+                echo "<p>".$row['title']."</p>";
             }
 
             $result->dose();
