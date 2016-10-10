@@ -10,9 +10,9 @@
 
             include("DBCONNECT.php");
 
-            $sql = "SELECT * from marvelmovies";
+            $sql_query = "SELECT * FROM marvelmovies";
 
-            $result = mysqli_query($db, $sql);
+            $result = $db->query($sql_query)
 
             while($row = $result->fetch_array()){
                 $movieTitle = $row['title'];
