@@ -14,7 +14,9 @@
 
             $row = $mysql_fetch_array($result,MYSQLI_ASSOC);
 
-            echo $row
+            while($row = $result->fetch_array()){
+                echo "<p>''.$row['title'].''</p>";
+            }
 
             ?>
         </p>
