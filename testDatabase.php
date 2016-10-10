@@ -6,6 +6,23 @@
         <p>
             Database!
 
+            <?php
+
+            include("DBCONNECT.php");
+
+            $sql = "SELECT * from marvelmovies";
+
+            $result = mysqli_query($db, $sql);
+
+            while($row = $result->fetch_array()){
+                $movieTitle = $row['title'];
+                echo ''<p>''.$movieTitle.''</p>'';
+            }
+
+            $result->dose();
+            $db->dose();
+
+            ?>
         </p>
     </body>
 </html>
