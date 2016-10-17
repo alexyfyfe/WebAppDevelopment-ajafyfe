@@ -16,5 +16,7 @@
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/superheroform.html">superheroform.html</a></li>
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/Showsuperheros.php">Showsuperheros.php</a></li>
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/battle.php">battle.php</a></li>
+            <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/displaybattles.php">displaybattles.php</a></li>
+
     </body>
 </html>
