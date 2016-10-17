@@ -2,7 +2,7 @@
 
 include("DBCONNECT.php");
 
-$superheroID = $_POST["superheroID"];
+$superheroID = $_POST["superhero"];
 $villanFought = $_POST["villanFought"];
 
 $sql = "INSERT INTO battles (superheroID, villanFought) VALUES ('$superheroID','$villanFought')";

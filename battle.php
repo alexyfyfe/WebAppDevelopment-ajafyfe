@@ -6,7 +6,7 @@
 </head>
 <body>
 <form action="insertbattle.php" method="post">
-    <p>Select a superhero that fought in battle</p><select name=""superhero">
+    <p>Select a superhero that fought in battle</p><select name="superhero">
     <?
     include ("DBCONNECT.php");
     $sql_query = "SELECT * FROM superheros";
