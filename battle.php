@@ -19,7 +19,7 @@
     }
     ?>
     </select><br>
-    <p><label>Main Super Power: </label><input type="text" name="mainSuperPower"></p>
+    <p><label>Villan: </label><input type="text" name="villan"></p>
     <p><input type="submit" value="Submit"></p>
 </form>
 </body>
