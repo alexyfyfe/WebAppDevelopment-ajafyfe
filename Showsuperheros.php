@@ -7,7 +7,7 @@
         <title>Show SuperHero</title>
     </head>
     <body>
-        <h1>Superhero List</h1>
+        <h1>Superhero List!</h1>
         <p>The following superheros have registered on the site:</p>
         <ul>
             <?
