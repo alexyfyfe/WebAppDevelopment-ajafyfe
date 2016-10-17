@@ -1,7 +1,7 @@
 <?php include("DBCONNECT.php"); ?>
 
 <!DOCTYPE html>
-<html lang="en">ero Battles!
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Show SuperHero</title>
