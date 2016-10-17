@@ -1,7 +1,9 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: 1401061
- * Date: 17/10/2016
- * Time: 13:33
- */
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>Where would you like to say hello?</p>
+
+</body>
+</html>
