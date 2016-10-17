@@ -12,5 +12,6 @@
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/displayAllMoviesCreatedAfter2010.php">displayAllMoviesCreatedAfter2010.php</a></li>
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/displayAllXMenFilms.php">displayAllXMenFilms.php</a></li>
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/helloSelector.php">helloSelector.php</a></li>
+            <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/createSuperHero.php">createSuperHero.php</a></li>
     </body>
 </html>
