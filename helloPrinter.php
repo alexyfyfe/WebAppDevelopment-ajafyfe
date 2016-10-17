@@ -3,7 +3,11 @@
 <head>
 </head>
 <body>
-<p>Where would you like to say hello?</p>
+<p>Hi</p>
+<?php
+$planet = $_GET["planet"];
+echo $planet;
 
+?>
 </body>
 </html>
