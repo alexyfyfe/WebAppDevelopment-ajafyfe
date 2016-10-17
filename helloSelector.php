@@ -4,10 +4,8 @@
     </head>
     <body>
         <p>Where would you like to say hello?</p>
-        <form action="helloPrinter.php" method="post">
-            <input type="submit" value='Earth'>
-            <input type="submit" value='Mars'>
-            <input type="submit" value='Uranus'>
-        </form>
+        <A href=“helloPrinter.php?planet=Earth>Earth</A>
+        <A href=“helloPrinter.php?planet=Mars>Mars</A>
+        <A href=“helloPrinter.php?planet=Uranus>Uranus</A>
     </body>
 </html>
