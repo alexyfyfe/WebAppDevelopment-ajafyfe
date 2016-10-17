@@ -13,7 +13,7 @@
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/displayAllXMenFilms.php">displayAllXMenFilms.php</a></li>
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/helloSelector.php">helloSelector.php</a></li>
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/createSuperHero.php">createSuperHero.php</a></li>
-            <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/superheroform.php">superheroform.php</a></li>
+            <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/superheroform.html">superheroform.html</a></li>
 
     </body>
 </html>
