@@ -2,7 +2,7 @@
 
 include("DBCONNECT.php");
 
-$superheroID = $_POST["superhero"];
+$superheroID = $_POST["superheroID"];
 $villanFought = $_POST["villanFought"];
 
 $sql = "INSERT INTO battles (superheroID, villanFought) VALUES ('$superheroID','$villanFought')";
@@ -12,5 +12,5 @@ if (mysqli_query($db, $sql)){
     echo "Error: " . $sql . "<br>" .mysqli_error($db);
 }
 
-header("location:index.php");
+header("location:displaybattles.php");
 ?>
