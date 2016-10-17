@@ -16,8 +16,8 @@
         $firstName = $row['firstName'];
         $lastName = $row['lastName'];
         $mainSuperPower = $row['mainSuperpower'];
-        $villan = $row['villan'];
-        echo "<li>The superhero known as {$firstName} {$lastName} recently faught {$villan} using {$mainSuperPower}</li>";
+        villanFought = $row['villanFought'];
+        echo "<li>The superhero known as {$firstName} {$lastName} recently faught {$villanFought} using {$mainSuperPower}</li>";
     }
     ?>
 </ul>

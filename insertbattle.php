@@ -3,9 +3,9 @@
 include("DBCONNECT.php");
 
 $superheroID = $_POST["superhero"];
-$villan = $_POST["villan"];
+$villanFought = $_POST["villanFought"];
 
-$sql = "INSERT INTO battles (superheroID, villanFought) VALUES ('$superheroID','$villan')";
+$sql = "INSERT INTO battles (superheroID, villanFought) VALUES ('$superheroID','$villanFought')";
 
 if (mysqli_query($db, $sql)){
 } else {
