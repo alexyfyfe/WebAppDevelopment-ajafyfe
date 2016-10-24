@@ -17,6 +17,8 @@
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/Showsuperheros.php">Showsuperheros.php</a></li>
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/battle.php">battle.php</a></li>
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/displaybattles.php">displaybattles.php</a></li>
+            <br>
+            <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/cookieIndex.html">cookieIndex.html</a></li>
 
     </body>
 </html>
