@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+
 
 $accesslevel = $_SESSION['type'];
 
