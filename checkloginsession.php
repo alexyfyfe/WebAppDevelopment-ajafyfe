@@ -3,6 +3,7 @@
 $username = $_POST["name"];
 $password = $_POST["password"];
 
+session_start();
 $_SESSION['username'] = $username;
 $_SESSION['password'] = $password;
 
