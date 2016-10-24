@@ -1,7 +1,10 @@
 <?php
 
+session_start();
 
-displayAccessLevelInformation($_SESSION['type']);
+$accesslevel = $_SESSION['type'];
+
+displayAccessLevelInformation($accesslevel);
 
 function displayAccessLevelInformation($accessLevel){
     if($accessLevel == "standarduser"){
