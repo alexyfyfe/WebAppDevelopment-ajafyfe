@@ -10,9 +10,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
             <p><input type="submit" value="Submit"></p>
         </form>
     </main>
+
     <?
     include("scripts/footer.php");
-} elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
     include("scripts/dbconnect.php");
     $username = $_POST["username"];
     $password = $_POST["password"];
