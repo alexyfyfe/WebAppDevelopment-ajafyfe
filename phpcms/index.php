@@ -1,5 +1,3 @@
-<p> HELLO! </p>
-
 <?
 define('INCLUDE_DIR', dirname(__FILE__) . '/inc/');
 $rules = array(
