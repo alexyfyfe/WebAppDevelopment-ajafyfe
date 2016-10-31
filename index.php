@@ -21,7 +21,7 @@
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/cookieIndex.html">cookieIndex.html</a></li>
             <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/cookieIndexSession.html">cookieIndexSession.html</a></li>
             <br>
-            <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/HOME.php">HOME.php</a></li>
+            <li><a href="http://webappdevelopment-ajfyfe.azurewebsites.net/HEADER.php">HEADER.php</a></li>
 
 
     </body>
