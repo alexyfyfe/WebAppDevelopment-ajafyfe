@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PHP MySQL & Google Maps Example</title>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9BV7xRLD-0_x8zx17sLXJNx9lqbFO_OQ" type="text/JavaScript"></script>
+    </head>
+    <body onload="load()">
+        <div id="map" style="width: 500px; height: 300px"></div>
+    </body>
+</html>
+
+<script type="text/JavaScript">
+    function load() {
+        var map = new google.maps.Map(document.getElementById("map"), {
+            center: new google.maps.LatLng(47.6145, -122.3418),
+            zoom: 13,
+            mapTypeId: 'roadmap'
+        });
+    }
+</script>
