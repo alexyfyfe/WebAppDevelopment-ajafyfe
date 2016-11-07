@@ -16,7 +16,7 @@
             zoom: 13,
             mapTypeId: 'roadmap'
         });
-        downloadUrl("locations.php", function(data) {
+        downloadUrl("clientAndServer.php", function(data) {
             var xml = data.responseXML;
             var markers = xml.documentElement.getElementsByTagName("marker");
             for (var i = 0; i < markers.length; i++) {
